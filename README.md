@@ -1,20 +1,5 @@
 # The Mousetracker Browser
-The Mousetracker Browser is an extended version of the Qt example using the QWebEngine.
-
-## Introduction
-The added tweaks on this browser make it capable of tracking user cursor movements in sessions and produce screenshots with detailed mouse trails of the traced web pages.
-The screenshots are captured of the whole web page on session ending i.e. when the user closes the tab or on successful navigation requests i.e. when the user clicks through hyperlinks or on request by hitting the save image button in the address bar (old floppy disk).
-
-## Features
-The Mousetracker Browser offers:
-<ul>
-<li> An adaption for capturing the fixed elements on scrollable pages with their mouse recordings on a screenshot. </li>
-<li> A full screenshot of the web page that is viewed by the user with their mouse interactions. </li>
-<li> The ability to analyze the users' mouse moves on the web page. </li>
-</ul>
-
-
-## Motivation
+The Mousetracker Browser is an extended version of a Qt example showcasing the QWebEngine. It allows to create an image with the enhanced representation of the visited web page by extraction of the fixed elements and stitching of viewport screenshots. In addition to the enhanced representation, the mouse data is provided in another image, which correctly maps the mouse cursor position onto page- and viewport-relative content on the enhanced representation. Both images can be overlayed for a mouse trail analysis.
 
 ## How to set and run the tweaked demobrowser source code:
 <ul>
