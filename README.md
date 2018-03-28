@@ -1,7 +1,7 @@
 # The Mousetracker Browser
-The Mousetracker Browser is an extended version of a Qt example showcasing the QWebEngine. It allows to create an image with the enhanced representation of the visited web page by extraction of the fixed elements and stitching of viewport screenshots. In addition to the enhanced representation, the mouse data is provided in another image, which correctly maps the mouse cursor position onto page- and viewport-relative content on the enhanced representation. Both images can be overlayed for a mouse trail analysis.
+The Mousetracker Browser is an extended version of a QWebEngine example. It allows to create an image with the enhanced representation of the visited Web page by extraction of the fixed elements and stitching of viewport screenshots. In addition to the enhanced representation, the mouse data is provided in another image, which correctly maps the mouse cursor position onto page- and viewport-relative content on the enhanced representation. Both images can be overlayed for a mouse trail analysis.
 
-## How to set and run the tweaked demobrowser source code:
+## How to set and run the source code:
 <ul>
 <li> Download and install QT 5.8 (will also download the creator IDE) with MSVC2015:
 <ul>
